@@ -19,7 +19,7 @@ const LoginScreen = ({ navigation,route }) => {
     const handleLogin = async () => {
         try {
             const response = await LoginUser(Username, Password);
-            Alert.alert("Login Successful", `Token: ${response}`);
+            Alert.alert("Login Successful");
             navigation.navigate("CheckTransScreen", { user: userData });
 
         } catch (error) {
@@ -39,6 +39,8 @@ const LoginScreen = ({ navigation,route }) => {
                     placeholder = {(Username == "") ? "Username": Username} // ถ้ามี error ให้ขึ้นข้อความแทน
                     value = {Username}
                     onChangeText = {setUsername}
+                    cursorColor={"white"}
+                    placeholderTextColor={"white"}
                 />
         <Icon name = "user" size = {20} color = "white" style = {style.iconemail}/>    
         </View>
@@ -48,6 +50,8 @@ const LoginScreen = ({ navigation,route }) => {
                     placeholder = "Password" // ถ้ามี error ให้ขึ้นข้อความแทน
                     value = {Password}
                     onChangeText = {setPassword}
+                    cursorColor={"white"}
+                    placeholderTextColor={"white"}
                     secureTextEntry
                 />
             <Icon name = "lock" size = {20} color = "white" style = {style.iconemail}/>    
@@ -117,6 +121,7 @@ const style = StyleSheet.create({
         borderRadius: 5,
         marginVertical: "15",
         backgroundColor: "rgba(240, 233, 233, 0.25)",
+        color: "white",
     },
     buttonText: {
         color: "white",
