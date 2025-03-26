@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity, Alert } from "react-native";
 import * as DocumentPicker from 'expo-document-picker';
 
-const CheckTransScreen = () => {
+const CheckTransScreen = ({navigation}) => {
     const [transcriptFile, setTranscriptFile] = useState(null);
 
     const pickTranscript = async () => {
@@ -25,6 +25,13 @@ const CheckTransScreen = () => {
 
             <TouchableOpacity onPress={pickTranscript} style={styles.uploadButton}>
                 <Text style={styles.uploadButtonText}>อัปโหลดใบทรานสคริป (PDF)</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+                <View style={[styles.Logout,{borderRadius: 50,borderWidth: 1}]}>
+                    <Text style={{ color: "white", fontWeight: "bold", fontSize: 15, }}>
+                        Logout
+                    </Text>
+                </View>
             </TouchableOpacity>
         </View>
     );
@@ -65,6 +72,19 @@ const styles = StyleSheet.create({
         color: "#006400",
         fontSize: 18,
         fontWeight: "bold",
+    },
+    Logout:{
+        marginTop: 20,
+        borderRadius: 50,
+        borderWidth: 1,
+        height: 40,
+        width: 80,
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "auto",
+        fontSize: 10,
+        backgroundColor: "#ec3522",
+        borderColor: "white",
     },
 });
 
