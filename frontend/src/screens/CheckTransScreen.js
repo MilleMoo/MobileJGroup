@@ -59,29 +59,20 @@ const CheckTransScreen = ({ navigation,route }) => {
     };
 
     return (
-
         <SafeAreaView style={styles.safeArea}>
+            {/* Profile Button - Positioned in top right */}
+            <TouchableOpacity 
+                onPress={() => navigation.navigate("ProfileScreen", { user: userData })} 
+                style={styles.profileButton}
+            >
+                <MaterialIcons name="account-circle" size={24} color="#FFD700" />
+            </TouchableOpacity>
+
             <ScrollView 
                 contentContainerStyle={styles.scrollContainer}
                 showsVerticalScrollIndicator={false}
             >
-                {/* Compact Header */}
-
-                <View style = {{marginTop: 50}}>
-                    <TouchableOpacity 
-                            onPress={() => navigation.navigate("ProfileScreen", { user: userData })} 
-                            style={[
-                                styles.actionButton,
-                                styles.uploadButton,
-                                isUploading && styles.disabledButton
-                            ]}
-                            disabled={isUploading}
-                    >
-                            <Text style={styles.buttonText}>
-                                {"โปรไฟล์"}
-                            </Text>
-                    </TouchableOpacity>
-                </View>
+                {/* Header */}
                 <View style={styles.header}>
                     <Image 
                         source={require("../assets/logo_ku_th.png")} 
@@ -92,7 +83,7 @@ const CheckTransScreen = ({ navigation,route }) => {
                     <Text style={styles.subtitle}>ม.เกษตรศาสตร์ กำแพงแสน</Text>
                 </View>
 
-                {/* Compact Upload Area */}
+                {/* Upload Area */}
                 <TouchableOpacity 
                     onPress={pickTranscript}
                     style={styles.uploadArea}
@@ -142,7 +133,7 @@ const CheckTransScreen = ({ navigation,route }) => {
                 </View>
             </ScrollView>
 
-            {/* Compact Footer */}
+            {/* Footer */}
             <TouchableOpacity 
                 onPress={() => navigation.navigate("Home")} 
                 style={styles.logoutButton}
@@ -165,8 +156,18 @@ const styles = StyleSheet.create({
         paddingTop: height * 0.02,
         paddingBottom: 20,
     },
+    // Profile button styles
+    profileButton: {
+        position: 'absolute',
+        top: height * 0.05,
+        right: 20,
+        zIndex: 10,
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+        borderRadius: 20,
+        padding: 8,
+    },
     header: {
-        marginTop: 50,
+        marginTop: height * 0.05,
         alignItems: "center",
         marginBottom: height * 0.03,
     },
