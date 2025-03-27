@@ -176,5 +176,3 @@ export const registerUser = async (username, email,password) => {
 
       return response.data;
     };
-
-    
