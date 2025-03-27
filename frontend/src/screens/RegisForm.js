@@ -120,6 +120,10 @@ const RegisForm = ({navigation}) => {
             <TouchableOpacity onPress={handleRegister} style={styles.buttonRegis}>
                 <Text style={styles.buttonText}>Sign Up</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => navigation.navigate("Login")} style={styles.buttonRegis}>
+                <Text style={styles.buttonText}>Back to Login</Text>
+            </TouchableOpacity>
         </View>
     );
 };
