@@ -20,8 +20,6 @@ const HomeScreen = ({ navigation }) => {
             <TouchableOpacity style={[styles.button, styles.signUpButton]} onPress={() => navigation.navigate("Register")}>
                 <Text style={[styles.buttonText, styles.signUpButtonText]}>สมัครสมาชิก</Text>
             </TouchableOpacity>
-
-            <Text style={styles.socialText}>เข้าสู่ระบบผ่านโซเชียลมีเดีย</Text>
         </LinearGradient>
     );
 };
