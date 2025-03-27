@@ -173,6 +173,22 @@ export const registerUser = async (username, email,password) => {
           },
         }
       );
-
       return response.data;
     };
+
+    export const getTranscriptJson = async (username) => {
+      try {
+        const response = await axios.get(
+          `${API_URL}/transcript-json?username=${encodeURIComponent(username)}`
+        );
+        return response.data.transcript;
+      } catch (error) {
+        console.error("Error fetching transcript_json:", error);
+        throw new Error(
+          error.response?.data?.message || "ไม่สามารถโหลดข้อมูล transcript ได้"
+        );
+      }
+    };
+
+
+    
