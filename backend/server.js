@@ -4,13 +4,15 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
 const fs = require("fs");
+const pdfParse = require("pdf-parse");
+const cors = require("cors");
+const { extractTranscript } = require("./utils/extractTranscript");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
-// ตั้งค่า multer สำหรับการจัดการไฟล์
-const storage = multer.memoryStorage();
-const upload = multer({ storage: storage });
+const upload = multer({ dest: "uploads/" });
 
 const db = new sqlite3.Database("./users.db", (err) => {
   if (err) console.error(err.message);
@@ -18,22 +20,23 @@ const db = new sqlite3.Database("./users.db", (err) => {
 });
 
 db.run(`CREATE TABLE IF NOT EXISTS users(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT UNIQUE,
-    email TEXT UNIQUE,
-    password TEXT,
-    Bio TEXT,
-    profile_image TEXT DEFAULT 'https://cdn.marvel.com/content/1x/349red_com_crd_01.png',
-    transcript_file BLOB,
-    final_project_file BLOB
-    )`);
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE,
+  email TEXT UNIQUE,
+  password TEXT,
+  Bio TEXT,
+  profile_image TEXT DEFAULT 'https://cdn.marvel.com/content/1x/349red_com_crd_01.png',
+  transcript_json TEXT,
+  curriculum_version TEXT DEFAULT '2565'
+)`);
+
+// ====================== USER AUTH & PROFILE ======================
 
 app.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
   const encryptedPassword = await bcrypt.hash(password, 10);
-  const defaultProfileImage = "https://cdn.marvel.com/content/1x/349red_com_crd_01.png";
-
-  console.log("POST:", username, email ,password);
+  const defaultProfileImage =
+    "https://cdn.marvel.com/content/1x/349red_com_crd_01.png";
 
   db.run(
     `INSERT INTO users (username, email, password, profile_image) VALUES (?, ?, ?, ?)`,
@@ -58,25 +61,18 @@ app.post("/login", (req, res) => {
         return res.status(400).send({ message: "Invalid" });
       }
       const token = jwt.sign({ userID: user.id }, "secretkey");
-      res.send({
-        token,
-        profileImage: user.profile_image,
-      });
+      res.send({ token, profileImage: user.profile_image });
     }
   );
 });
 
 app.put("/update-name", (req, res) => {
   const { username, newName } = req.body;
-
   db.run(
     `UPDATE users SET username = ? WHERE username = ?`,
     [newName, username],
     function (err) {
-      if (err) {
-        console.error("Database error:", err);
-        return res.status(500).send({ message: "Error updating name" });
-      }
+      if (err) return res.status(500).send({ message: "Error updating name" });
       res.send({ message: "Name updated successfully" });
     }
   );
@@ -84,23 +80,9 @@ app.put("/update-name", (req, res) => {
 
 app.get("/get-user", (req, res) => {
   const { username } = req.query;
-
-  if (!username) {
-    console.error("No username provided");
-    return res.status(400).json({ message: "Username is required" });
-  }
-
   db.get(`SELECT * FROM users WHERE username = ?`, [username], (err, user) => {
-    if (err) {
-      console.error("Database error:", err);
-      return res.status(500).json({ message: "Database error" });
-    }
-    if (!user) {
-      console.log("User not found:", username);
-      return res.status(404).json({ message: "User not found" });
-    }
-
-    console.log("User data fetched:", user);
+    if (err) return res.status(500).json({ message: "Database error" });
+    if (!user) return res.status(404).json({ message: "User not found" });
     res.json({
       username: user.username,
       email: user.email,
@@ -112,20 +94,11 @@ app.get("/get-user", (req, res) => {
 
 app.put("/update-Bio", (req, res) => {
   const { username, bio } = req.body;
-
-  if (!username || !bio) {
-    return res.status(400).send({ message: "Username and bio are required" });
-  }
-
-  console.log("Updating bio for user:", username, "with bio:", bio);
   db.run(
     `UPDATE users SET Bio = ? WHERE username = ?`,
     [bio, username],
     function (err) {
-      if (err) {
-        console.error("Database error:", err);
-        return res.status(500).send({ message: "Error updating bio" });
-      }
+      if (err) return res.status(500).send({ message: "Error updating bio" });
       res.send({ message: "Bio updated successfully" });
     }
   );
@@ -133,15 +106,14 @@ app.put("/update-Bio", (req, res) => {
 
 app.put("/update-profile-image", (req, res) => {
   const { username, profileImage } = req.body;
-
   db.run(
     `UPDATE users SET profile_image = ? WHERE username = ?`,
     [profileImage, username],
     function (err) {
-      if (err) {
-        console.error("Database error:", err);
-        return res.status(500).send({ message: "Error updating profile image" });
-      }
+      if (err)
+        return res
+          .status(500)
+          .send({ message: "Error updating profile image" });
       res.send({ message: "Profile image updated successfully", profileImage });
     }
   );
@@ -149,80 +121,65 @@ app.put("/update-profile-image", (req, res) => {
 
 app.put("/update-password", async (req, res) => {
   const { username, oldPassword, newPassword } = req.body;
-
-  if (!username || !oldPassword || !newPassword) {
-    return res.status(400).send({ message: "All fields are required" });
-  }
-
-  db.get(`SELECT * FROM users WHERE username = ?`, [username], async (err, user) => {
-    if (err) {
-      console.error("Database error:", err);
-      return res.status(500).json({ message: "Database error" });
-    }
-    if (!user || !(await bcrypt.compare(oldPassword, user.password))) {
-      return res.status(400).send({ message: "Old password is incorrect" });
-    }
-
-    const encryptedPassword = await bcrypt.hash(newPassword, 10);
-    db.run(
-      `UPDATE users SET password = ? WHERE username = ?`,
-      [encryptedPassword, username],
-      function (err) {
-        if (err) {
-          console.error("Error updating password:", err);
-          return res.status(500).send({ message: "Error updating password" });
+  db.get(
+    `SELECT * FROM users WHERE username = ?`,
+    [username],
+    async (err, user) => {
+      if (!user || !(await bcrypt.compare(oldPassword, user.password))) {
+        return res.status(400).send({ message: "Old password is incorrect" });
+      }
+      const encryptedPassword = await bcrypt.hash(newPassword, 10);
+      db.run(
+        `UPDATE users SET password = ? WHERE username = ?`,
+        [encryptedPassword, username],
+        function (err) {
+          if (err)
+            return res.status(500).send({ message: "Error updating password" });
+          res.send({ message: "Password updated successfully" });
         }
-        res.send({ message: "Password updated successfully" });
-      }
-    );
-  });
-});
-
-// API สำหรับอัปโหลดไฟล์ transcript และ final project
-app.put("/upload-files", upload.fields([{ name: "transcript" }, { name: "final_project" }]), (req, res) => {
-  const { username } = req.body;
-  const transcriptFile = req.files["transcript"] ? req.files["transcript"][0].buffer : null;
-  const finalProjectFile = req.files["final_project"] ? req.files["final_project"][0].buffer : null;
-
-  if (!transcriptFile && !finalProjectFile) {
-    return res.status(400).send({ message: "No files uploaded" });
-  }
-
-  db.run(
-    `UPDATE users SET transcript_file = ?, final_project_file = ? WHERE username = ?`,
-    [transcriptFile, finalProjectFile, username],
-    function (err) {
-      if (err) {
-        console.error("Database error:", err);
-        return res.status(500).send({ message: "Error uploading files" });
-      }
-      res.send({ message: "Files uploaded successfully" });
+      );
     }
   );
 });
 
-// API สำหรับดาวน์โหลดไฟล์ transcript และ final project
-app.get("/download-file", (req, res) => {
-  const { username, fileType } = req.query;
+// ====================== FILE UPLOAD & PDF PARSE ======================
 
-  if (!username || !fileType) {
-    return res.status(400).send({ message: "Username and fileType are required" });
+app.post("/upload-transcript", upload.single("file"), async (req, res) => {
+  try {
+    const username = req.body.username;
+    if (!username || !req.file) {
+      return res
+        .status(400)
+        .send({ message: "Username and file are required" });
+    }
+
+    const dataBuffer = fs.readFileSync(req.file.path);
+    const pdfData = await pdfParse(dataBuffer);
+    const lines = pdfData.text.split("\n");
+    const transcriptData = extractTranscript(lines);
+    const transcriptJson = JSON.stringify(transcriptData);
+
+    fs.unlinkSync(req.file.path); // ลบไฟล์ชั่วคราว
+
+    db.run(
+      `UPDATE users SET transcript_json = ? WHERE username = ?`,
+      [transcriptJson, username],
+      function (err) {
+        if (err) {
+          console.error("❌ บันทึกไม่สำเร็จ:", err);
+          return res.status(500).send({ message: "Database update failed" });
+        }
+        res.json({
+          message: "Transcript saved",
+          data: transcriptData,
+          canGraduate: true, // คุณสามารถเพิ่ม logic เช็กจบได้ตรงนี้
+        });
+      }
+    );
+  } catch (error) {
+    console.error("❌ Error extracting transcript:", error);
+    res.status(500).send("Error extracting transcript");
   }
-
-  const fileColumn = fileType === "transcript" ? "transcript_file" : "final_project_file";
-
-  db.get(`SELECT ${fileColumn} FROM users WHERE username = ?`, [username], (err, row) => {
-    if (err) {
-      console.error("Database error:", err);
-      return res.status(500).send({ message: "Error fetching file" });
-    }
-    if (!row || !row[fileColumn]) {
-      return res.status(404).send({ message: "File not found" });
-    }
-
-    res.setHeader("Content-Type", "application/octet-stream");
-    res.send(row[fileColumn]);
-  });
 });
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(5000, () => console.log("✅ Server running on port 5000"));
