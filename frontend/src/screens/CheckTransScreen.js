@@ -26,7 +26,7 @@ const CheckTransScreen = ({navigation}) => {
             <TouchableOpacity onPress={pickTranscript} style={styles.uploadButton}>
                 <Text style={styles.uploadButtonText}>อัปโหลดใบทรานสคริป (PDF)</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+            <TouchableOpacity onPress={() => navigation.navigate("Home")}>
                 <View style={[styles.Logout,{borderRadius: 50,borderWidth: 1}]}>
                     <Text style={{ color: "white", fontWeight: "bold", fontSize: 15, }}>
                         Logout
