@@ -1,0 +1,284 @@
+[
+  {
+    "courseId": "01355101",
+    "nameEN": "English for Everyday Life",
+    "grade": "D+",
+    "credits": 3
+  },
+  {
+    "courseId": "01361101",
+    "nameEN": "Introductory Thai Usage",
+    "grade": "C",
+    "credits": 3
+  },
+  {
+    "courseId": "01417111",
+    "nameEN": "Calculus I",
+    "grade": "D",
+    "credits": 3
+  },
+  {
+    "courseId": "01418111",
+    "nameEN": "Introduction to Computer Science",
+    "grade": "A",
+    "credits": 2
+  },
+  {
+    "courseId": "01418112",
+    "nameEN": "Fundamental Programming Concepts",
+    "grade": "D+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418141",
+    "nameEN": "Intellectual Properties and Professional Ethics",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "01999111",
+    "nameEN": "Knowledge of the Land",
+    "grade": "A",
+    "credits": 2
+  },
+  {
+    "courseId": "02999144",
+    "nameEN": "Life Skill for Undergraduate Student",
+    "grade": "A",
+    "credits": 1
+  },
+  {
+    "courseId": "01131111",
+    "nameEN": "Finance for Entrepreneurs",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "01175121",
+    "nameEN": "Basketball for Health",
+    "grade": "A",
+    "credits": 1
+  },
+  {
+    "courseId": "01355102",
+    "nameEN": "English for University Life",
+    "grade": "D+",
+    "credits": 3
+  },
+  {
+    "courseId": "01417322",
+    "nameEN": "Basic Linear Algebra",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01418113",
+    "nameEN": "Computer Programming",
+    "grade": "C+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418131",
+    "nameEN": "Statistical Programming",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01418132",
+    "nameEN": "Fundamentals of Computing",
+    "grade": "C",
+    "credits": 3
+  },
+  {
+    "courseId": "02708102",
+    "nameEN": "Literature and Science",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01355103",
+    "nameEN": "English for Job Opportunities",
+    "grade": "F",
+    "credits": 3
+  },
+  {
+    "courseId": "01371111",
+    "nameEN": "Information Media for Learning",
+    "grade": "B+",
+    "credits": 1
+  },
+  {
+    "courseId": "01387101",
+    "nameEN": "The Art of Living with Others",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418211",
+    "nameEN": "Software Construction",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418231",
+    "nameEN": "Data Structures and Algorithms",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01418233",
+    "nameEN": "Computer Architecture",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "02721121",
+    "nameEN": "Business Management for Social Sustainability",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "03751111",
+    "nameEN": "Man and Environment",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418221",
+    "nameEN": "Fundamentals of Database Systems",
+    "grade": "D+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418222",
+    "nameEN": "Enterprise Information System",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418223",
+    "nameEN": "Data Science and Application Programs",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418232",
+    "nameEN": "Algorithm Design and Analysis",
+    "grade": "C",
+    "credits": 3
+  },
+  {
+    "courseId": "01418236",
+    "nameEN": "Operating Systems",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01418261",
+    "nameEN": "Fundamentals of Artificial Intelligence",
+    "grade": "B+",
+    "credits": 3
+  },
+  {
+    "courseId": "02738453",
+    "nameEN": "BCG Economy",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418212",
+    "nameEN": "C Programming",
+    "grade": "C+",
+    "credits": 3
+  },
+  {
+    "courseId": "01418321",
+    "nameEN": "System Analysis and Design",
+    "grade": "C",
+    "credits": 3
+  },
+  {
+    "courseId": "01418331",
+    "nameEN": "Theory of Computation",
+    "grade": "C",
+    "credits": 3
+  },
+  {
+    "courseId": "01418351",
+    "nameEN": "Computer Communications and Cloud Computing Principles",
+    "grade": "B",
+    "credits": 3
+  },
+  {
+    "courseId": "01418381",
+    "nameEN": "Introduction to Interactive Computer Graphics",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418390",
+    "nameEN": "Cooperative Education Preparation",
+    "grade": "A",
+    "credits": 1
+  },
+  {
+    "courseId": "01355103",
+    "nameEN": "English for Job Opportunities",
+    "grade": "F",
+    "credits": 3
+  },
+  {
+    "courseId": "02738473",
+    "nameEN": "Computer Application in Biological Science",
+    "grade": "A",
+    "credits": 3
+  },
+  {
+    "courseId": "01418241",
+    "nameEN": "Financial and Banking Information Technology",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01418282",
+    "nameEN": "Image and Video Processing",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01418332",
+    "nameEN": "Information System Security",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01418342",
+    "nameEN": "Mobile Application Design and Development",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01418371",
+    "nameEN": "Project Management and Digital Startup",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01418497",
+    "nameEN": "Seminar",
+    "grade": "N",
+    "credits": 1
+  },
+  {
+    "courseId": "01999035",
+    "nameEN": "Music Culture in Life",
+    "grade": "N",
+    "credits": 3
+  },
+  {
+    "courseId": "01355103",
+    "nameEN": "English for Job Opportunities",
+    "grade": "N",
+    "credits": 3
+  }
+]

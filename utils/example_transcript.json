@@ -1,0 +1,182 @@
+[
+  {
+    "courseId": "01175121",
+    "nameEN": "Basketball for Health",
+    "grade": "B"
+  },
+  {
+    "courseId": "01131111",
+    "nameEN": "Finance for Entrepreneurs",
+    "grade": "A"
+  },
+  {
+    "courseId": "01361101",
+    "nameEN": "Basic Thai Usage",
+    "grade": "C"
+  },
+  {
+    "courseId": "01355101",
+    "nameEN": "English for Everyday Life",
+    "grade": "B+"
+  },
+  {
+    "courseId": "01355102",
+    "nameEN": "English for University Life",
+    "grade": "B"
+  },
+  {
+    "courseId": "01999111",
+    "nameEN": "Wisdom of the Land",
+    "grade": "A"
+  },
+  {
+    "courseId": "01007101",
+    "nameEN": "Horticulture and Environment",
+    "grade": "B"
+  },
+  {
+    "courseId": "01999035",
+    "nameEN": "Music and Culture",
+    "grade": "C+"
+  },
+  {
+    "courseId": "01417111",
+    "nameEN": "Calculus I",
+    "grade": "A"
+  },
+  {
+    "courseId": "01417322",
+    "nameEN": "Basic Linear Algebra",
+    "grade": "B+"
+  },
+  {
+    "courseId": "01418131",
+    "nameEN": "Statistical Programming",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418132",
+    "nameEN": "Fundamentals of Computing",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418112",
+    "nameEN": "Fundamental Programming Concepts",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418113",
+    "nameEN": "Computer Programming",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418211",
+    "nameEN": "Software Construction",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418231",
+    "nameEN": "Data Structures and Algorithms",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418232",
+    "nameEN": "Design and Analysis of Algorithms",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418111",
+    "nameEN": "Introduction to Computer Science",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418236",
+    "nameEN": "Operating Systems",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418331",
+    "nameEN": "Theory of Computation",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418332",
+    "nameEN": "Information Systems Security",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418351",
+    "nameEN": "Computer Networks and Cloud",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418141",
+    "nameEN": "IP and Ethics",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418321",
+    "nameEN": "System Analysis and Design",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418371",
+    "nameEN": "Digital Startup",
+    "grade": "A"
+  },
+  {
+    "courseId": "01418221",
+    "nameEN": "Fundamentals of DB",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418261",
+    "nameEN": "Fundamentals of AI",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418390",
+    "nameEN": "Co-op Prep",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418490",
+    "nameEN": "Co-operative Education",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418497",
+    "nameEN": "Seminar",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418499",
+    "nameEN": "CS Project",
+    "grade": "C"
+  },
+  {
+    "courseId": "01418212",
+    "nameEN": "C Programming",
+    "grade": "B"
+  },
+  {
+    "courseId": "01418222",
+    "nameEN": "Enterprise IS",
+    "grade": "A"
+  },
+  {
+    "courseId": "01418362",
+    "nameEN": "Intro to Machine Learning",
+    "grade": "B"
+  },
+  {
+    "courseId": "02738453",
+    "nameEN": "BCG Economy",
+    "grade": "C"
+  },
+  {
+    "courseId": "03751111",
+    "nameEN": "Man and Environment",
+    "grade": "C+"
+  }
+]

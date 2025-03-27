@@ -1,0 +1,1578 @@
+[
+  {
+    "courseId": "01175111",
+    "nameTH": "กรีฑาลู่-ลาน เพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175112",
+    "nameTH": "แบดมินตันเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175113",
+    "nameTH": "เทนนิสเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175114",
+    "nameTH": "เทเบิลเทนนิสเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175115",
+    "nameTH": "ฝึกสมาธิด้วยกิจกรรมยิงปืน",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175117",
+    "nameTH": "ฝึกสมาธิด้วยกิจกรรมยิงธนู",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175118",
+    "nameTH": "แชร์บอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175119",
+    "nameTH": "เปตองเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175121",
+    "nameTH": "บาสเกตบอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175122",
+    "nameTH": "ฟุตบอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175123",
+    "nameTH": "วอลเลย์บอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175124",
+    "nameTH": "แฮนด์บอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175125",
+    "nameTH": "ซอฟท์บอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175126",
+    "nameTH": "ตะกร้อเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175127",
+    "nameTH": "ฮอกกี้เพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175128",
+    "nameTH": "รักบี้ฟุตบอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175129",
+    "nameTH": "ฟุตซอลเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175131",
+    "nameTH": "ว่ายน้ำเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175133",
+    "nameTH": "กระโดดน้ำ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175134",
+    "nameTH": "โปโลน้ำ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175141",
+    "nameTH": "การเต้นแอโรบิกเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175142",
+    "nameTH": "การเต้นรำพื้นเมืองตามวัฒนธรรมท้องถิ่นเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175143",
+    "nameTH": "การเต้นลีลาศเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175144",
+    "nameTH": "การรำไทยเพื่อสุขภาพ",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175151",
+    "nameTH": "ศิลปะการป้องกันตัวและการต่อสู้ด้วยดาบไทย",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175152",
+    "nameTH": "ศิลปะการป้องกันตัวและการต่อสู้ด้วยดาบสากล",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175153",
+    "nameTH": "ศิลปะการป้องกันตัวและการต่อสู้ด้วยมวยไทย",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01175154",
+    "nameTH": "ศิลปะการป้องกันตัวและการต่อสู้ด้วยมวยสากล",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01101102",
+    "nameTH": "เศรษฐศาสตร์แนวพุทธเพื่อความเป็นอยู่ที่ดี",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01173151",
+    "nameTH": "เอดส์ศึกษา",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01174231",
+    "nameTH": "นันทนาการเบื้องต้น",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01176141",
+    "nameTH": "การวางแผนเพื่ออาชีพสำหรับคนรุ่นใหม่",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01387101",
+    "nameTH": "ศิลปะการอยู่ร่วมกับผู้อื่น",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01387103",
+    "nameTH": "ปรัชญาเศรษฐกิจพอเพียงกับพุทธศาสนา",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01402101",
+    "nameTH": "การรู้เท่าทันผลิตภัณฑ์เสริมความงาม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01421211",
+    "nameTH": "รังสี ชีวิต และสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01453102",
+    "nameTH": "กฎหมายในชีวิตประจำวัน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01459101",
+    "nameTH": "จิตวิทยาเพื่อชีวิตสมัยใหม่",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01459102",
+    "nameTH": "จิตวิทยากับความหลากหลายของมนุษย์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999011",
+    "nameTH": "อาหารเพื่อมนุษยชาติ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999012",
+    "nameTH": "สุขภาพเพื่อชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999033",
+    "nameTH": "ศิลปะการดำเนินชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999036",
+    "nameTH": "ความสุขในพลวัตของชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999048",
+    "nameTH": "นวัตกรรมเพื่อสิ่งแวดล้อมและสุขภาวะ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999051",
+    "nameTH": "การพัฒนาสมรรถนะหลักผ่านสุขภาพหนึ่งเดียว",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01999213",
+    "nameTH": "สิ่งแวดล้อม เทคโนโลยี และชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "02999044",
+    "nameTH": "เศรษฐกิจพอเพียงเพื่อการดำรงชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "02999045",
+    "nameTH": "การเพิ่มคุณค่าชีวิตด้วยวิถีชุมชนชนบท",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "02032303",
+    "nameTH": "การเกษตรกับคุณภาพชีวิตที่ดี",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "02724012",
+    "nameTH": "การพัฒนาบุคลิกภาพ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "02727101",
+    "nameTH": "พืชเพื่อชีวิตที่ดีกว่า",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "04401112",
+    "nameTH": "บุคลิกภาพและมารยาททางสังคมสำหรับการบริการชุมชน",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "อยู่ดีมีสุข",
+    "required": false
+  },
+  {
+    "courseId": "01005101",
+    "nameTH": "เทคโนโลยีเกษตรสมัยใหม่",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01131111",
+    "nameTH": "การเงินสำหรับผู้ประกอบการ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01132101",
+    "nameTH": "ผู้ประกอบการรุ่นใหม่",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01177141",
+    "nameTH": "การแสวงหาความรู้",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01101101",
+    "nameTH": "เศรษฐศาสตร์ทั่วไปในกระแสโลกาภิวัตน์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01200101",
+    "nameTH": "การคิดเชิงนวัตกรรม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01418102",
+    "nameTH": "เทคโนโลยีสารสนเทศเพื่อผู้ประกอบการ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01999041",
+    "nameTH": "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01999043",
+    "nameTH": "การคิดสร้างสรรค์เพื่อการจัดการคุณค่า",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "02714101",
+    "nameTH": "การคิดเชิงวิพากษ์และสร้างสรรค์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "02717011",
+    "nameTH": "ตนและการพัฒนาตน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "02721121",
+    "nameTH": "การจัดการธุรกิจเพื่อสังคมที่ยั่งยืน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "03600014",
+    "nameTH": "การแก้ปัญหาเชิงสร้างสรรค์และทักษะการคิดเชิงวิพากษ์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ศาสตร์แห่งผู้ประกอบการ",
+    "required": false
+  },
+  {
+    "courseId": "01999111",
+    "nameTH": "ศาสตร์แห่งแผ่นดิน",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01001317",
+    "nameTH": "พระมหากษัตริย์และผู้นำประเทศกับการพัฒนาภาคการเกษตร",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01015202",
+    "nameTH": "เกษตรวิถีไทย",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01174122",
+    "nameTH": "การเรียนรู้เชิงนันทนาการโดยการเดินทางในต่างประเทศแบบประหยัด",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01350101",
+    "nameTH": "วิถีชีวิตและวัฒนธรรมในอาเซียน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01387104",
+    "nameTH": "ปรัชญาและศาสนาในประเทศอาเซียน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01390102",
+    "nameTH": "การท่องเที่ยวเชิงสร้างสรรค์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01301101",
+    "nameTH": "การอนุรักษ์ทรัพยากรและสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01455101",
+    "nameTH": "การเมืองโลกในชีวิตประจำวัน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01460101",
+    "nameTH": "สังคมและวัฒนธรรมไทยร่วมสมัย",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01999031",
+    "nameTH": "มรดกอารยธรรมโลก",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01999032",
+    "nameTH": "ไทยศึกษา",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01999046",
+    "nameTH": "การพัฒนาความมั่นคงแห่งชาติ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01999047",
+    "nameTH": "การทหารเพื่อพัฒนาประเทศ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01999141",
+    "nameTH": "มนุษย์กับสังคม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "02999042",
+    "nameTH": "การพัฒนานิสิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "02999144",
+    "nameTH": "ทักษะชีวิตการเป็นนิสิตมหาวิทยาลัย",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "02999147",
+    "nameTH": "ไทยในพลวัตอาเซียน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "03751112",
+    "nameTH": "สังคมและการเมือง",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "04804115",
+    "nameTH": "จิตอาสาเพื่อพัฒนาชุมชน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01371111",
+    "nameTH": "Information Media for Learning",
+    "nameEN": "",
+    "credits": 1,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "พลเมืองไทยและพลเมืองโลก",
+    "required": false
+  },
+  {
+    "courseId": "01361101",
+    "nameTH": "การใช้ภาษาไทยเบื้องต้น",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "01361102",
+    "nameTH": "การเขียนภาษาไทยเชิงปฏิบัติ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "01361103",
+    "nameTH": "การอ่านภาษาไทยเชิงวิจารณ์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "01999021",
+    "nameTH": "ภาษาไทยเพื่อการสื่อสาร",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "01999022",
+    "nameTH": "ภาษาไทยในบริบทวัฒนธรรม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "02701011",
+    "nameTH": "การใช้ภาษาไทยเพื่อธุรกิจ วิทยาศาสตร์และเทคโนโลยี",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "thai"
+  },
+  {
+    "courseId": "01355101",
+    "nameTH": "ภาษาอังกฤษในชีวิตประจำวัน",
+    "nameEN": "English for Everyday Life",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "english"
+  },
+  {
+    "courseId": "01355102",
+    "nameTH": "ภาษาอังกฤษในมหาวิทยาลัย",
+    "nameEN": "English for University Life",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "english"
+  },
+  {
+    "courseId": "01355103",
+    "nameTH": "ภาษาอังกฤษในการทำงาน",
+    "nameEN": "English for Job Opportunities",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "english"
+  },
+  {
+    "courseId": "01355109",
+    "nameTH": "ทักษะการฟัง-การพูดภาษาอังกฤษที่จำเป็น",
+    "nameEN": "Essential English Listening-Speaking Skills",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "ภาษากับการสื่อสาร",
+    "required": false,
+    "languageType": "english"
+  },
+  {
+    "courseId": "01007101",
+    "nameTH": "พืชสวนเพื่อคุณภาพชีวิตและสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 2,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01009102",
+    "nameTH": "ทรัพยากรการเกษตรและสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01240011",
+    "nameTH": "การออกแบบในชีวิตประจำวัน",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01255101",
+    "nameTH": "มนุษย์กับทะเล",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01373102",
+    "nameTH": "วัฒนธรรมทัศนาการกับชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01376101",
+    "nameTH": "วรรณกรรมกับชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01387102",
+    "nameTH": "ปรัชญาสำหรับโลกยุคใหม่",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01420201",
+    "nameTH": "อัญมณีและเครื่องประดับ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01999034",
+    "nameTH": "ศิลปวิจักษ์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01999035",
+    "nameTH": "วัฒนธรรมดนตรีกับชีวิต",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "02999037",
+    "nameTH": "ศิลปะแห่งสุนทรียศาสตร์เพื่อความสุข",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "02708102",
+    "nameTH": "วรรณกรรมกับวิทยาศาสตร์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "02727102",
+    "nameTH": "พืชและมนุษย์",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "03600012",
+    "nameTH": "เทคโนโลยีสีเขียว",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "03751111",
+    "nameTH": "มนุษย์กับสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "02738453",
+    "nameTH": "BCG Economy",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "02738473",
+    "nameTH": "การประยุกต์คอมพิวเตอร์ทางวิทยาศาสตร์ชีวภาพ",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "03751111",
+    "nameTH": "มนุษย์กับสิ่งแวดล้อม",
+    "nameEN": "",
+    "credits": 3,
+    "category": "วิชาศึกษาทั่วไป",
+    "subCategory": "สุนทรียศาสตร์",
+    "required": false
+  },
+  {
+    "courseId": "01417111",
+    "nameTH": "แคลคูลัส I",
+    "nameEN": "Calculus I",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "แกน",
+    "required": true
+  },
+  {
+    "courseId": "01417322",
+    "nameTH": "พีชคณิตเชิงเส้นพื้นฐาน",
+    "nameEN": "Basic Linear Algebra",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "แกน",
+    "required": true
+  },
+  {
+    "courseId": "01418131",
+    "nameTH": "การโปรแกรมทางสถิติ",
+    "nameEN": "Statistical Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "แกน",
+    "required": true
+  },
+  {
+    "courseId": "01418132",
+    "nameTH": "หลักมูลการคณนา",
+    "nameEN": "Fundamentals of Computing",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "แกน",
+    "required": true
+  },
+  {
+    "courseId": "01418141",
+    "nameTH": "ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ",
+    "nameEN": "Intellectual Properties and Professional Ethics",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418371",
+    "nameTH": "การบริหารโครงการและสตาร์ทอัพดิจิทัล",
+    "nameEN": "Project Management and Digital Startup",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418221",
+    "nameTH": "ระบบฐานข้อมูลเบื้องต้น",
+    "nameEN": "Fundamentals of Database Systems",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418261",
+    "nameTH": "หลักพื้นฐานของปัญญาประดิษฐ์",
+    "nameEN": "Fundamentals of Artificial Intelligence",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418321",
+    "nameTH": "การวิเคราะห์และการออกแบบระบบ",
+    "nameEN": "System Analysis and Design",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418390",
+    "nameTH": "การเตรียมความพร้อมสหกิจศึกษา",
+    "nameEN": "Co-operative Education Preparation",
+    "credits": 1,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418490",
+    "nameTH": "สหกิจศึกษา",
+    "nameEN": "Co-operative Education",
+    "credits": 6,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418497",
+    "nameTH": "สัมมนา",
+    "nameEN": "Seminar",
+    "credits": 1,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418499",
+    "nameTH": "โครงงานวิทยาการคอมพิวเตอร์",
+    "nameEN": "Computer Science Project",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418112",
+    "nameTH": "แนวคิดการโปรแกรมเบื้องต้น",
+    "nameEN": "Fundamental Programming Concepts",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418113",
+    "nameTH": "การโปรแกรมคอมพิวเตอร์",
+    "nameEN": "Computer Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418211",
+    "nameTH": "การสร้างซอฟต์แวร์",
+    "nameEN": "Software Construction",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418231",
+    "nameTH": "โครงสร้างข้อมูลและขั้นตอนวิธี",
+    "nameEN": "Data Structures and Algorithms",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418232",
+    "nameTH": "การออกแบบและวิเคราะห์ขั้นตอนวิธี",
+    "nameEN": "Design and Analysis of Algorithms",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418111",
+    "nameTH": "วิทยาการคอมพิวเตอร์เบื้องต้น",
+    "nameEN": "Introduction to Computer Science",
+    "credits": 2,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418236",
+    "nameTH": "ระบบปฏิบัติการ",
+    "nameEN": "Operating Systems",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418331",
+    "nameTH": "ทฤษฎีการคำนวณ",
+    "nameEN": "Theory of Computation",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418332",
+    "nameTH": "ความมั่นคงในระบบสารสนเทศ",
+    "nameEN": "Information Systems Security",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418351",
+    "nameTH": "หลักการเครือข่ายคอมพิวเตอร์และการประมวลผลบนคลาวด์",
+    "nameEN": "Computer Networks and Cloud Computing Principles",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418233",
+    "nameTH": "สถาปัตยกรรมคอมพิวเตอร์",
+    "nameEN": "Computer Architecture",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะบังคับ",
+    "required": true
+  },
+  {
+    "courseId": "01418212",
+    "nameTH": "การโปรแกรมภาษาซี",
+    "nameEN": "C Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418213",
+    "nameTH": "การโปรแกรมภาษาโคบอล",
+    "nameEN": "COBOL Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418214",
+    "nameTH": "การฝึกปฏิบัติการพัฒนาซอฟต์แวร์",
+    "nameEN": "Practicum in Software Development",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418222",
+    "nameTH": "ระบบสารสนเทศวิสาหกิจ",
+    "nameEN": "Enterprise Information System",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418223",
+    "nameTH": "วิทยาการข้อมูลและโปรแกรมประยุกต์",
+    "nameEN": "Data Science and Application Programs",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418234",
+    "nameTH": "การโปรแกรมอินเทอร์เน็ตของสรรพสิ่ง",
+    "nameEN": "Programming Internet of Things",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418235",
+    "nameTH": "ระบบปฏิบัติการยูนิกซ์และการโปรแกรมเปลือกระบบ",
+    "nameEN": "Unix Operating System and Shell Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418241",
+    "nameTH": "เทคโนโลยีสารสนเทศการเงินและการธนาคาร",
+    "nameEN": "Financial and Banking Information Technology",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418281",
+    "nameTH": "หลักการสร้างภาพเคลื่อนไหวด้วยคอมพิวเตอร์",
+    "nameEN": "Principles of Computer Animation",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418282",
+    "nameTH": "การประมวลผลภาพและวีดิทัศน์",
+    "nameEN": "Image and Video Processing",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418311",
+    "nameTH": "การโปรแกรมเชิงค านวณแบบท้าทาย",
+    "nameEN": "Challenging Computational Programming",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418322",
+    "nameTH": "วิทยาการข้อมูลเบื้องต้น",
+    "nameEN": "Introduction to Data Science",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418323",
+    "nameTH": "การจัดการคุณภาพข้อมูล",
+    "nameEN": "Data Quality Management",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418324",
+    "nameTH": "ระบบสนับสนุนการตัดสินใจและอัจฉริยะทางธุรกิจ",
+    "nameEN": "Decision Support and Business Intelligent Systems",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418325",
+    "nameTH": "ข้อมูลจินตทัศน์",
+    "nameEN": "Data Visualization",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418333",
+    "nameTH": "เทคนิคตัวแปลโปรแกรม",
+    "nameEN": "Compiler Techniques",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418341",
+    "nameTH": "การออกแบบและการพัฒนาระบบการวางแผนทรัพยากรองค์กร",
+    "nameEN": "Enterprise Resource Planning System Design and Development",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418342",
+    "nameTH": "การออกแบบและพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์เคลื่อนที่",
+    "nameEN": "Mobile Application Design and Development",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418343",
+    "nameTH": "การค านวณแบบขนานด้วยคูด้า",
+    "nameEN": "Parallel Computing with CUDA",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418344",
+    "nameTH": "การจัดการมิติข้อมูลและรายงานทางธุรกิจ",
+    "nameEN": "Business Data Dimension and Report Management",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418352",
+    "nameTH": "การสื่อสารข้อมูลและเครือข่าย",
+    "nameEN": "Data Communications and Networks",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418353",
+    "nameTH": "แนวคิดและบริการการค านวณแบบคลาวด์",
+    "nameEN": "Cloud Computing Concepts and Services",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418361",
+    "nameTH": "คอมพิวเตอร์วิทัศน์เบื้องต้น",
+    "nameEN": "Introduction to Computer Vision",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418362",
+    "nameTH": "การเรียนรู้ของเครื่องเบื้องต้น",
+    "nameEN": "Introduction to Machine Learning",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418363",
+    "nameTH": "การประมวลผลภาษาธรรมชาติ",
+    "nameEN": "Natural Language Processing",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418381",
+    "nameTH": "คอมพิวเตอร์กราฟิกส์เชิงโต้ตอบเบื้องต้น",
+    "nameEN": "Introduction to Interactive Computer Graphics",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418382",
+    "nameTH": "วิชวลเอฟเฟกส์",
+    "nameEN": "Visual Effects",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418383",
+    "nameTH": "ความจริงขยาย",
+    "nameEN": "Extended Reality",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418421",
+    "nameTH": "การออกแบบประสบการณ์และส่วนเชื่อมประสานผู้ใช้",
+    "nameEN": "User Experience and User Interface Design",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418441",
+    "nameTH": "เว็บเทคโนโลยีและเว็บบริการ",
+    "nameEN": "Web Technology and Web Services",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418451",
+    "nameTH": "การออกแบบและการบริหารเครือข่าย",
+    "nameEN": "Network Design and Administration",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418471",
+    "nameTH": "การออกแบบและพัฒนาซอฟต์แวร์",
+    "nameEN": "Software Design and Development",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418472",
+    "nameTH": "การบูรณาการกระบวนการเชิงอไจล์และเดฟอ็อปส์",
+    "nameEN": "Integrated Agile Process and DevOps",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418473",
+    "nameTH": "การควบคุมและการตรวจสอบงานคอมพิวเตอร์",
+    "nameEN": "Computer Control and Audit",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418474",
+    "nameTH": "การทดสอบและทวนสอบซอฟต์แวร์",
+    "nameEN": "Software Testing and Verification",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  },
+  {
+    "courseId": "01418496",
+    "nameTH": "เรื่องเฉพาะทางวิทยาการคอมพิวเตอร์",
+    "nameEN": "Selected Topic in Computer Science",
+    "credits": 3,
+    "category": "วิชาเฉพาะ",
+    "subCategory": "เฉพาะเลือก",
+    "required": false
+  }
+]
