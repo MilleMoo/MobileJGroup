@@ -1,6 +1,9 @@
 import axios from "axios";
+import * as DocumentPicker from "expo-document-picker";
+import { Alert } from "react-native";
 
-const API_URL = "http://192.168.2.111:5000";
+
+const API_URL = "http://192.168.63.125:5000";
 
 export const LoginUser = async (username,password) => {
     try {
@@ -115,4 +118,63 @@ export const registerUser = async (username, email,password) => {
             throw new Error(error.response?.data?.message || "Error updating password");
         }
     };
+
+    export const pickTranscript = async (setTranscriptFile) => {
+      try {
+        const result = await DocumentPicker.getDocumentAsync({
+          type: "application/pdf",
+          copyToCacheDirectory: true,
+        });
+
+        if (result.type === "success") {
+          setTranscriptFile(result.uri);
+
+          const formData = new FormData();
+          formData.append("file", {
+            uri: result.uri,
+            name: result.name,
+            type: "application/pdf",
+          });
+
+          const response = await axios.post(
+            `${API_URL}/upload-transcript`, // ✅ Fix
+            formData,
+            {
+              headers: {
+                "Content-Type": "multipart/form-data",
+              },
+            }
+          );
+
+          console.log("✅ ตรวจสอบสำเร็จ:", response.data);
+          Alert.alert("สำเร็จ", "ผลการตรวจสอบได้รับแล้ว!");
+        }
+      } catch (error) {
+        console.error("❌ เกิดข้อผิดพลาดในการอัปโหลด:", error);
+        Alert.alert("ผิดพลาด", "ไม่สามารถอัปโหลดไฟล์ได้");
+      }
+    };
+
+    export const uploadTranscript = async (uri, name, username) => {
+      const formData = new FormData();
+      formData.append("file", {
+        uri,
+        name,
+        type: "application/pdf",
+      });
+      formData.append("username", username);
+
+      const response = await axios.post(
+        `${API_URL}/upload-transcript`,
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+
+      return response.data;
+    };
+
     
