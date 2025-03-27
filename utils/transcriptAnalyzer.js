@@ -56,6 +56,7 @@ function analyzeTranscript(transcript, curriculum) {
   };
 
   const notFound = []; // ❌ รายวิชาที่ไม่มีใน curriculum
+  const passedCourseIds = passed.map(course => course.courseId); // 📌 รหัสวิชาที่ผ่านแล้ว
 
   for (const course of passed) {
     const info = curriculum.find((c) => c.courseId === course.courseId);
@@ -120,14 +121,29 @@ function analyzeTranscript(transcript, curriculum) {
   // ✅ เลือกเสรี จากวิชาที่เกิน
   check("เลือกเสรี", extraCredits, REQUIREMENTS.freeElective);
 
-  return {
-    canGraduate: unmetConditions.length === 0,
-    metConditions,
-    unmetConditions,
-    passedCourses: passed,
-    summary,
-    missingCourses: notFound,
-  };
+   // 📌 หาวิชาเฉพาะบังคับที่ยังไม่ได้ลงเรียน
+   const missingRequiredCourses = curriculum
+   .filter(course => 
+     course.category === "วิชาเฉพาะ" && 
+     course.subCategory === "เฉพาะบังคับ" && 
+     course.required === true &&
+     !passedCourseIds.includes(course.courseId))
+   .map(course => ({
+     courseId: course.courseId,
+     nameTH: course.nameTH,
+     nameEN: course.nameEN,
+     credits: course.credits
+   }));
+
+ return {
+   canGraduate: unmetConditions.length === 0,
+   metConditions,
+   unmetConditions,
+   passedCourses: passed,
+   summary,
+   missingCourses: notFound,
+   missingRequiredCourses,
+ };
 }
 
 module.exports = { analyzeTranscript };
