@@ -182,4 +182,29 @@ app.post("/upload-transcript", upload.single("file"), async (req, res) => {
   }
 });
 
+app.get("/transcript-json", (req, res) => {
+  const { username } = req.query;
+
+  if (!username) {
+    return res.status(400).json({ message: "Username is required" });
+  }
+
+  db.get(
+    `SELECT transcript_json FROM users WHERE username = ?`,
+    [username],
+    (err, row) => {
+      if (err) {
+        console.error(" Database error:", err);
+        return res.status(500).json({ message: "Database error" });
+      }
+
+      if (!row || !row.transcript_json) {
+        return res.status(404).json({ message: "Transcript data not found" });
+      }
+
+      res.json({ transcript: JSON.parse(row.transcript_json) });
+    }
+  );
+});
+
 app.listen(5000, () => console.log("✅ Server running on port 5000"));
