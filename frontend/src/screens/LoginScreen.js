@@ -71,7 +71,17 @@ const LoginScreen = ({ navigation,route }) => {
                                 Sign Up
                             </Text>
                         </View>
-                    </TouchableOpacity>
+                </TouchableOpacity>
+
+            </View>
+            <View style = {{ marginLeft: 80 }}>
+                <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+                        <View style={[style.FPassword,{borderRadius: 50, borderWidth: 1,borderColor: "white"}]}>
+                            <Text style={{ color: "white",fontSize: 20, fontWeight: "bold" }}>
+                                Home
+                            </Text>
+                        </View>
+                </TouchableOpacity>
             </View>
         </View>
     )
@@ -82,7 +92,7 @@ const style = StyleSheet.create({
         flex: 5,
         justifyContent: "center",
         padding: 16,
-        backgroundColor: "#006400"
+        backgroundColor: "#007A33"
     },
     input: {
         height: 45,
@@ -102,7 +112,6 @@ const style = StyleSheet.create({
         fontSize: 10,
         marginTop: 30,
         marginLeft: 40,
-        backgroundColor: "#228B22",
         borderColor: "white",
     },
     FPassword:{
