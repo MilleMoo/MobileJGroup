@@ -5,12 +5,14 @@ import {
   StyleSheet,
   Image,
   TouchableOpacity,
+  Dimensions,
   Alert,
 } from "react-native";
+import { SafeAreaView } from 'react-native'; 
 import * as DocumentPicker from "expo-document-picker";
 import { uploadTranscript } from "../service/api";
 import { MaterialIcons } from "@expo/vector-icons";
-
+import { ScrollView } from "react-native";
 const { width, height } = Dimensions.get("window");
 
 const CheckTransScreen = ({ navigation, route }) => {
