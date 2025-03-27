@@ -136,6 +136,7 @@ const styles = StyleSheet.create({
         color: "#FFD700", // Gold
         alignSelf: "center",
         marginBottom: 50,
+        marginTop: 30,
     },
     input: {
         flex: 1,
