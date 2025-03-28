@@ -6,7 +6,7 @@ const multer = require("multer");
 const fs = require("fs");
 const pdfParse = require("pdf-parse");
 const cors = require("cors");
-const { extractTranscript } = require("./utils/extractTranscript");
+const { extractTranscript } = require("../frontend/groupProject/src/utils/extractTranscript");
 
 const app = express();
 app.use(express.json());
