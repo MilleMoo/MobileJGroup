@@ -1,0 +1,16 @@
+expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-get-random-values react-native-vector-icons
+expo install @react-navigation/native
+expo install @react-navigation/stack
+npm install react-native-swipe-list-view
+npm install react-native-draggable-flatlist
+npm install @react-native-async-storage/async-storage
+npm install axios
+npm install @react-native-async-storage/async-storage
+npm install @react-navigation/bottom-tabs
+npm install victory-native
+npm install react-native-chart-kit react-native-svg
+npx expo install react-native-reanimated
+npx expo install react-native-svg
+
+backend
+npm install express sqlite3 bcryptjs jsonwebtoken cors body-parser dot
