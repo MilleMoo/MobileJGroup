@@ -3,7 +3,7 @@ import * as DocumentPicker from "expo-document-picker";
 import { Alert } from "react-native";
 
 
-const API_URL = "http://192.168.63.125:5000";
+const API_URL = "http://192.168.1.35:5000";
 
 export const LoginUser = async (username,password) => {
     try {

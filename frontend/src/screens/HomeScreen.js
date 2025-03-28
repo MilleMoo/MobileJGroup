@@ -20,9 +20,6 @@ const HomeScreen = ({ navigation }) => {
             <TouchableOpacity style={[styles.button, styles.signUpButton]} onPress={() => navigation.navigate("Register")}>
                 <Text style={[styles.buttonText, styles.signUpButtonText]}>สมัครสมาชิก</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={[styles.button, styles.DemoButton]} onPress={() => navigation.navigate("TranscriptScreen")}>
-                <Text style={[styles.buttonText, styles.signUpButtonText]}>Demo Transcript</Text>
-            </TouchableOpacity>
         </LinearGradient>
     );
 };

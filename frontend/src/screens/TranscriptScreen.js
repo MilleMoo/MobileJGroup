@@ -9,17 +9,33 @@ import {
   ScrollView
 } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
-import { analyzeTranscript } from "../../../utils/transcriptAnalyzer";
-import curriculumData from "../../../utils/curriculum.json";
-import transcriptData from "../../../transcript/transcript-data.json"; 
+import { analyzeTranscript } from "../utils/transcriptAnalyzer";
+import curriculumData from "../utils/curriculum.json";
+import { getTranscriptJson } from "../service/api";
+import { useNavigation } from "@react-navigation/native";
 
-const TranscriptScreen = () => {
+const TranscriptScreen = ({route}) => {
+  const navigation = useNavigation(); 
+  const user = route.params?.user || {};
+  const [username, setUsername] = useState(user?.Username || ""); 
   const [result, setResult] = useState(null);
 
   useEffect(() => {
-    const analysis = analyzeTranscript(transcriptData, curriculumData);
-    setResult(analysis);
-  }, []);
+    const fetchAndAnalyzeTranscript = async () => {
+      try {
+        const transcriptData = await getTranscriptJson(username);
+        console.log(transcriptData)
+        const analysis = analyzeTranscript(transcriptData, curriculumData);
+        setResult(analysis);
+      } catch (error) {
+        console.error("Error analyzing transcript:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAndAnalyzeTranscript();
+  }, [username]);
 
   if (!result) {
     return (
@@ -42,6 +58,10 @@ const TranscriptScreen = () => {
 
       {/* Analysis Results */}
       <View style={styles.resultsContainer}>
+        {/* 🔙 ปุ่มย้อนกลับ */}
+        <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+          <MaterialIcons name="arrow-back" size={28} color="black" />
+        </TouchableOpacity>
         <Text style={styles.resultsHeader}>สรุปผลการวิเคราะห์</Text>
         
         {/* Status Card */}
@@ -133,8 +153,10 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     backgroundColor: '#006400',
-    padding: 15,
+    padding: 60,
+    //paddingBottom: 70,
     alignItems: 'center',
+    justifyContent: "flex-end",
     borderBottomLeftRadius: 15,
     borderBottomRightRadius: 15,
     // เพิ่มส่วนนี้เพื่อให้ Header ทับเนื้อหา
@@ -160,7 +182,7 @@ const styles = StyleSheet.create({
   },
   resultsContainer: {
     padding: 15,
-    marginTop: 150, 
+    marginTop: 250, 
   },
   resultsHeader: {
     fontSize: 20,

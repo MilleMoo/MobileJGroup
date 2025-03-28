@@ -1,0 +1,122 @@
+import React, { useState } from "react";
+import { View, Text, StyleSheet, Image, TouchableOpacity, Alert } from "react-native";
+import * as DocumentPicker from 'expo-document-picker';
+import * as FileSystem from 'expo-file-system'; // For file handling
+
+const CheckTransScreen = ({ navigation }) => {
+    const [transcriptFile, setTranscriptFile] = useState(null);
+
+    const convertPdfToJson = async (pdfPath, outputJsonPath) => {
+        try {
+            const response = await fetch(pdfPath);
+            const pdfData = await response.blob(); // Fetch the PDF file as a blob
+
+            // Simulate conversion logic (replace this with actual conversion logic if needed)
+            const jsonData = {
+                message: "PDF converted to JSON successfully!",
+                pdfPath,
+            };
+
+            // Save the JSON data to a file (optional)
+            const jsonFilePath = `${FileSystem.documentDirectory}${outputJsonPath}`;
+            await FileSystem.writeAsStringAsync(jsonFilePath, JSON.stringify(jsonData, null, 2));
+
+            console.log("JSON saved at:", jsonFilePath);
+            Alert.alert("Conversion Successful", `JSON saved at: ${jsonFilePath}`);
+        } catch (error) {
+            console.error("Error converting PDF to JSON:", error);
+            Alert.alert("Conversion Failed", "An error occurred while converting the PDF.");
+        }
+    };
+
+    const pickTranscript = async () => {
+        let result = await DocumentPicker.getDocumentAsync({
+            type: "application/pdf",
+            copyToCacheDirectory: true,
+        });
+
+        console.log(result); // ตรวจสอบผลลัพธ์จากการเลือกไฟล์   
+        Alert.alert("ไฟล์ที่เลือก", result.assets[0].name);
+        
+        if (result.type === "success") {
+            setTranscriptFile(result.uri);
+            Alert.alert("อัปโหลดสำเร็จ", "ไฟล์ทรานสคริปของคุณถูกอัปโหลดแล้ว!");
+
+            // Call the PDF to JSON conversion function
+            const outputJsonPath = "convertedTranscript.json"; // Output JSON file name
+            await convertPdfToJson(result.uri, outputJsonPath);
+        }
+    };
+
+    return (
+        <View style={styles.container}>
+            <Image source={require("../assets/logo_ku_th.png")} style={styles.logo} />
+            <Text style={styles.title}>ระบบอัปโหลดใบทรานสคริป</Text>
+            <Text style={styles.subtitle}>มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน</Text>
+
+            <TouchableOpacity onPress={pickTranscript} style={styles.uploadButton}>
+                <Text style={styles.uploadButtonText}>อัปโหลดใบทรานสคริป (PDF)</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+                <View style={[styles.Logout, { borderRadius: 50, borderWidth: 1 }]}>
+                    <Text style={{ color: "white", fontWeight: "bold", fontSize: 15 }}>
+                        Logout
+                    </Text>
+                </View>
+            </TouchableOpacity>
+        </View>
+    );
+};
+
+const styles = StyleSheet.create({
+    container: { 
+        flex: 1, 
+        alignItems: "center", 
+        justifyContent: "center", 
+        backgroundColor: "#006400", 
+        paddingHorizontal: 20,
+    },
+    logo: {
+        width: 120,
+        height: 120,
+        marginBottom: 20,
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: "bold",
+        color: "#fff",
+        marginBottom: 10,
+    },
+    subtitle: {
+        fontSize: 18,
+        color: "#f0f0f0",
+        marginBottom: 30,
+    },
+    uploadButton: {
+        backgroundColor: "#FFD700",
+        paddingVertical: 14,
+        paddingHorizontal: 25,
+        borderRadius: 30,
+        elevation: 5,
+    },
+    uploadButtonText: {
+        color: "#006400",
+        fontSize: 18,
+        fontWeight: "bold",
+    },
+    Logout: {
+        marginTop: 20,
+        borderRadius: 50,
+        borderWidth: 1,
+        height: 40,
+        width: 80,
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "auto",
+        fontSize: 10,
+        backgroundColor: "#ec3522",
+        borderColor: "white",
+    },
+});
+
+export default CheckTransScreen;

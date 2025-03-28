@@ -19,7 +19,6 @@ const LoginScreen = ({ navigation,route }) => {
     const handleLogin = async () => {
         try {
             const response = await LoginUser(Username, Password);
-            Alert.alert("Login Successful");
             navigation.navigate("CheckTransScreen", { user: userData });
 
         } catch (error) {
